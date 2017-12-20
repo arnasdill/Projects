@@ -8,6 +8,6 @@
     Puslapį pasiekti galima žemiau pateiktu adresu:
    http://leidybatau.lt
     
-## 2016m. vasarą su draugu darytas puslapis pasiekiamas adresu:
-Vienas iš pirmųjų web puslapių.
+## 2016m. vasarą su draugu darytas puslapis.
+Vienas iš pirmųjų mano web puslapių.
    http://osclue.96.lt
