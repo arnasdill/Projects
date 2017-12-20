@@ -1,10 +1,10 @@
 # README
 
-## Folderyje ,,praktika" yra užduotis, kurią reikėjo atlikti praktikai.
+## Folderyje ,,Praktika" yra užduotis, kurią reikėjo atlikti praktikai.
     Užduotyje reikėjo sukurti užduočių sąrašą su dviejų vartotojų lygiu: admin ir user.
     Viena sąraše esanti užduotis gali buti priskirta vienam vartotojui.
     Užduotim ir vartotojam naudojau duomenų bazę iš dviejų lentelių: užduotys ir vartotojai.
-## Folderyje ,,leidybaNaujas" yra mano sukurtas internetinis puslapis.
+## Folderyje ,,LeidybaTau" yra mano sukurtas internetinis puslapis.
     Puslapį pasiekti galima žemiau pateiktu adresu:
    http://leidybatau.lt
     
