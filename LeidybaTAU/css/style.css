@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=latin-ext');
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+hr {
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    border: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+section {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    padding-top: 60pt;
+    padding-bottom: 60pt;
+}
+
+@media only screen and (max-width: 667px) {
+    body, html {
+/*        overflow-x: hidden;*/
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+
+/*********************************
+ *
+ * navbar
+ *
+ *********************************/
+
+.navbar {
+    position: fixed;
+    margin-bottom: 0px;
+    top: 0px;
+    background: #2f363e;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar > li {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.active{
+    background-color:#131a21;
+    color: white;
+}
+
+.navbar-inverse {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+
+/*********************************
+ *
+ * start-page
+ *
+ *********************************/
+
+#start-page {
+    color: white;
+    height: 100vh;
+    background: url('../img/start-page.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+#start-page .opacity {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#start-page .read-more {
+    width: 183px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: lightgrey;
+    cursor: pointer;
+    background: none;
+}
+
+.frontPage {
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 667px) {
+    .frontPage {
+        margin-top: 0px;
+    }
+}
+
+#start-page .read-more:hover {
+    color: white;
+}
+
+.arrow-down {
+    position: relative;
+    left: 50%;
+    margin-left: -10px;
+    width: 21px;
+    height: 29px;
+    background: url(../img/arrow-down.png) no-repeat center center;
+    -webkit-animation: bounce-fade 1.2s infinite; /* Safari 4+ */
+    -moz-animation: bounce-fade 1.2s infinite; /* Fx 5+ */
+    -o-animation: bounce-fade 1.2s infinite; /* Opera 12+ */
+    animation: bounce-fade 1.2s infinite; /* IE 10+ */
+}
+
+
+.logoImg {
+    margin: 25pt;
+}
+
+@-webkit-keyframes bounce-fade {
+    0% {    opacity: 0; bottom: 70px; }
+    100% {  opacity: 1; bottom: 35px; }
+}
+
+@-moz-keyframes bounce-fade {
+    0% {    opacity: 0; bottom: 70px; }
+    100% {  opacity: 1; bottom: 35px; }
+}
+
+@-o-keyframes bounce-fade {
+    0% {    opacity: 0; bottom: 70px; }
+    100% {  opacity: 1; bottom: 35px; }
+}
+
+@keyframes bounce-fade {
+    0% {    opacity: 0; bottom: 70px; }
+    100% {  opacity: 1; bottom: 35px; }
+}
+
+
+
+/*********************************
+ *
+ * about-us
+ *
+ *********************************/
+
+#about-us {
+    color: black;
+    background-color: white;
+}
+
+#partners hr {
+    background-color: black;
+}
+
+#about-us p {
+    margin: 10pt 0;
+    width: 100%;
+    text-align: center;
+}
+
+#about-us .note {
+    font-size: 14px;
+}
+
+
+/*********************************
+ *
+ * portfolio
+ *
+ *********************************/
+
+#portfolio {
+    background-color: #23282d;
+    color: white;
+}
+
+#portfolio hr {
+    background-color: white;
+}
+
+.works {
+    padding: 15pt 20pt;
+}
+
+@media only screen and (max-width: 667px) {
+    .works {
+        padding: 5pt;
+        width: 100%;
+    }
+}
+
+
+/*********************************
+ *
+ * partners
+ *
+ *********************************/
+
+#partners {
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#partners hr {
+    background-color: white;
+}
+
+.partnerLogo {
+    padding: 15pt;
+}
+
+
+/*********************************
+ *
+ * contacts
+ *
+ *********************************/
+
+#contacts {
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+#contacts hr {
+    background-color: black;
+}
+
+.contact {
+    padding: 15pt 0;
+}
+
+.contact .name {
+    font-size: 1.2em;
+}
+
+.contact .ivvp {
+    color: darkgrey;
+    padding: 0 5pt;
+}
+
