@@ -1,9 +1,9 @@
 # README
 
-## 2018m. praktikos metu atlikti darbai:
- www.bildukonamai.lt 
- www.goodfellamoving.com 
- www.vaziuokle.lt 
+## 2018m. praktikos metu atlikti darbai:  
+ www.bildukonamai.lt  
+ www.goodfellamoving.com  
+ www.vaziuokle.lt  
  
 ## 2018m. krepšinio turnyrui sukurtas informacinis puslapis (dar kūrimo procese)
 www.krepsinionaktis.lt
